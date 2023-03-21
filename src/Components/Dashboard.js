@@ -13,6 +13,9 @@ const Dashboard = () => {
                 .then((data) => {
                     setItems(data);
                 })
+                .catch(error => {
+                    alert('Error fetching data:', error);
+                });
         }
     }, []);
 
