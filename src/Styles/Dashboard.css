@@ -1,0 +1,14 @@
+.container-grid{
+    margin: 30px;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+

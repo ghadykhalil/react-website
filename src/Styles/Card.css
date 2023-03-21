@@ -1,0 +1,66 @@
+.card{
+    padding: 20px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px #ccc;
+    margin-bottom: 50px;
+    margin-inline: 20px;
+    border: 2px solid rgb(0, 160, 255);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.image{
+    width: 100%;
+    height: 50%;
+    max-height: 250px;
+    object-fit: contain;
+}
+
+.mb-5{
+    margin-block: 5px;
+}
+
+.price{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    flex: 1;
+    color: rgb(0, 130, 255);
+    font-weight: bold;
+}
+
+.category{
+    font-style: italic;
+    color: #777;
+}
+
+.star{
+    width: 20px;
+    height: 20px;
+}
+
+.description{
+    display: -webkit-box;
+    color: #777;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+
+.card:hover .description {
+    overflow: visible;
+}
+
+.title{
+    margin-block: 10px;
+    font-weight: 1000;
+    font-size: 18px;
+    color: rgb(0, 160, 255);
+}
+
+.rating{
+    color: #cb1;
+}
